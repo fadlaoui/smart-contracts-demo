@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "approve",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "reject",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "_approvers",
+						"type": "address[]"
+					},
+					{
+						"name": "_minApprovers",
+						"type": "uint256"
+					},
+					{
+						"name": "_beneficiary",
+						"type": "address"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MultiSigWallet.sol": "MultiSigWallet"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MultiSigWallet.sol": {
+			"keccak256": "0x3a9d7e87bc070308a3b53daf9c5d2cc8f57cfe200bf44f18af801fe11b31b44f",
+			"urls": [
+				"bzzr://caf2d259f85cbcec4a8b326da4d7de29c1a28137662e04fd18e7462ab26fef46"
+			]
+		}
+	},
+	"version": 1
+}
